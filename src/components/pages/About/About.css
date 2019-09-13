@@ -1,0 +1,52 @@
+.content {
+    margin: 0rem 15rem;
+}
+
+.content .title {
+    text-shadow: .01rem .01rem .5rem rgb(6, 184, 190);
+}
+
+.content .subtitle {
+    text-shadow: .01rem .01rem 1rem rgb(0, 0, 0);
+}
+
+.picture {
+    text-align: center;
+}
+
+.about-picture {
+    height: 20rem;
+    width: 15rem;
+    box-shadow: .001rem .1rem 1rem rgb(14, 146, 135);
+    border-radius: 1rem;
+}
+
+
+@media only screen and (max-width: 1408px) {
+    .content {
+        margin: 0rem 10rem;
+    }
+}
+
+@media only screen and (max-width: 1218px) {
+    .content {
+        margin: 0rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .content {
+        margin: -1rem 1rem; 
+    }
+
+    .about-picture {
+        height: 18rem;
+        width: 13rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .content {
+        margin: -3rem 0rem;
+    }
+}

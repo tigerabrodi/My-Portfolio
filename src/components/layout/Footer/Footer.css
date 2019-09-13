@@ -1,0 +1,85 @@
+  footer {
+    bottom: 0;
+    left: 2.5%;
+    position: absolute;
+    right: 0;
+  }
+  footer div.social-media-links {
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+  footer div.social-media-links ul {
+    margin: 2rem 0rem;
+    padding: 0;
+  }
+  footer div.social-media-links li {
+    display: inline;
+    box-shadow: .01rem .01rem 1rem black;
+    margin: 1rem;
+    padding: .7rem;
+    border-radius: 1rem;
+  }
+
+  footer div.social-media-links li:nth-child(1) {
+    display: inline;
+    box-shadow: .01rem .01rem 1rem black;
+    margin-left: 0rem;
+    padding: .7rem;
+    border-radius: 1rem;
+  }  
+  
+  footer div.social-media-links li:nth-child(5) {
+    display: inline;
+    box-shadow: .01rem .01rem 1rem black;
+    margin-right: 0rem;
+    padding: .7rem;
+    border-radius: 1rem;
+  }
+
+  footer div.social-media-links a {
+    border-bottom: 0px solid rgba(0, 0, 0, 0.95);
+    border-radius: 4px;
+    display: inline-block;
+    height: 30px;
+    right: .9rem;
+    padding: 20px;
+    position: relative;
+    transition: 0.2s ease-in;
+    width: 30px;
+  }
+  footer div.social-media-links a svg {
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    height: 30px;
+    width: 30px;
+  }
+
+  footer div.social-media-links a svg path,
+  footer div.social-media-links a svg circle {
+    fill: #0096a1;
+    transition: 0.2s ease-in;
+  }
+  footer div.social-media-links a:hover {
+    -webkit-transform: translateY(-.3rem);
+            transform: translateY(-.3rem);
+  }
+  footer div.social-media-links a:hover svg.glow {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><f…ter id="filter"><feGaussianBlur stdDeviation="10" /></filter></svg>#filter');
+    -webkit-filter: blur(.2rem);
+            filter: blur(.2rem);
+  }
+  footer div.social-media-links a:hover svg.glow path,
+  footer div.social-media-links a:hover svg.glow circle {
+    fill: rgba(14, 186, 199, 0.6);
+  }
+  footer div.social-media-links a:hover svg path,
+  footer div.social-media-links a:hover svg circle {
+    fill: #0ebac7;
+  }
+
+  footer div.social-media-links a:active {
+    transform: translate(0rem, .5rem);
+  }
+  

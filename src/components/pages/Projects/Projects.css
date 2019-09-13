@@ -1,0 +1,28 @@
+/* .about .title {
+    font-family: cursive;
+    text-shadow: 0.01rem 0.01rem 0.5rem black;
+}
+
+.about .columns {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.about .column {
+    box-shadow: 0.01rem 0.01rem 0.5rem black;
+    margin-top: 4rem;
+}
+
+.about .subtitle {
+    font-family: cursive;
+    text-shadow: 0.01rem 0.01rem 0.5rem black;
+}
+
+.about .button {
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+}
+.about .button:hover {
+    transform: translate(0rem, -.5rem);
+} */

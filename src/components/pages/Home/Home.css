@@ -1,0 +1,36 @@
+html {
+    background: linear-gradient(
+    to bottom right,
+        rgba(136, 16, 46, 0.753),
+        rgba(243, 168, 69, 0.554),
+        rgba(245, 14, 33, 0.479)
+  ),
+  url(../../images/New-York-Wallpaper-Background-19.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+}
+
+
+.home {
+    margin-top: 18rem;
+}
+
+.title, .subtitle {
+    margin: 5rem 0rem;
+}
+
+#home-button {
+    margin-top: 3rem;
+    transition: all .7s;
+}
+
+#home-button:hover {
+    transform: translate(0rem, -1rem);
+}
+
+#home-button:active {
+    transform: translate(0rem, .5rem);
+}
+
