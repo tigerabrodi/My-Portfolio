@@ -1,0 +1,60 @@
+.contact {
+    margin-top: 10rem;
+}
+
+.contact .field {
+    animation-name: tada;
+    animation-duration: 1s;
+}
+
+.contact .title {
+    animation-name: swing;
+    animation-duration: 1s;
+}
+
+.control {
+    box-shadow: .01rem .01rem .5rem black;
+}
+
+.label {
+    text-shadow: 0.01rem 0.01rem 0.5rem rgb(3, 255, 179);
+    letter-spacing: .1rem;
+}
+
+.input {
+    font-weight: bold;
+}
+
+.textarea {
+    font-weight: bold;
+}
+
+.is-grouped {
+    position: absolute;
+}
+
+.is-grouped .control {
+    box-shadow: none !important;
+}
+
+.is-grouped .button {
+    transition: all 0.5s;
+    text-align: center;
+    box-shadow: 0.01rem 0.01rem 0.5rem black;
+    position: relative;
+    font-weight: bold;
+    color: black;
+    top:50%; 
+    left:80%;
+}
+.is-grouped .button:hover {
+    transform: translate(0rem, -.4rem) scale(1.08, 1.08);
+}
+.is-grouped .button:active {
+    transform: translate(0rem, .7rem);
+}
+
+.title {
+    text-shadow: .01rem .01rem .5rem black;
+    letter-spacing: .1rem;
+}

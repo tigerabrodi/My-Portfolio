@@ -19,11 +19,15 @@ html {
 
 .title, .subtitle {
     margin: 5rem 0rem;
+    animation-name: bounce;
+    animation-duration: 1s;
 }
 
 #home-button {
     margin-top: 3rem;
     transition: all .7s;
+    animation-name: wobble;
+    animation-duration: 1s;
 }
 
 #home-button:hover {

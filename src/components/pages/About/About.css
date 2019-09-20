@@ -4,14 +4,20 @@
 
 .content .title {
     text-shadow: .01rem .01rem .5rem rgb(6, 184, 190);
+    animation-name: bounce;
+    animation-duration: 1s;
 }
 
 .content .subtitle {
     text-shadow: .01rem .01rem 1rem rgb(0, 0, 0);
+    animation-name: bounce;
+    animation-duration: 1s;
 }
 
 .picture {
     text-align: center;
+    animation-name: wobble;
+    animation-duration: 1s;
 }
 
 .about-picture {

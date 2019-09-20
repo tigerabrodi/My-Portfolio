@@ -1,3 +1,7 @@
+.navbar {
+   animation-name: slideInLeft;
+   animation-duration: 1s;
+}
 
 @media screen and (min-width: 1024px){
  .navbar-center {
@@ -41,4 +45,3 @@
 .navbar-center a:active {
    transform: translate(0rem, .5rem);
 }
-

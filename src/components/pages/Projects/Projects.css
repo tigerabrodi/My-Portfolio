@@ -1,37 +1,50 @@
 .inside-div {
     box-shadow: .01rem .01rem .5rem black;
-    transition: all .5s;
+    transition: all .8s;
+    border-radius: .5rem;
+    animation-name: tada;
+    animation-duration: 1s;
 }
 
-
 .projects .title {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     text-shadow: 0.01rem 0.01rem 0.5rem black;
+    transition: all .7s;
+    animation-name: rotateIn;
+    animation-duration: 1s;
 }
 
 .projects .subtitle {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     text-shadow: 0.01rem 0.01rem 0.5rem black;
+    transition: all .7s;
+    animation-name: rotateIn;
+    animation-duration: 1s;
 }
 
 .projects .button {
-    transition: all 0.4s;
-    height:30px; 
-    width:100px; 
+    transition: all .5s;
+    height: 30px; 
+    width: 90px; 
     margin: -10px -50px; 
-    position:relative;
+    position: relative;
     top:50%; 
     left:50%;
+    font-weight: bold;
+    animation-name: wobble;
+    animation-duration: 1s;
 }
 
-.hidden {
-    visibility: hidden;
+
+.projects .button:hover {
+    transform: translate(0rem, -.4rem) scale(1.08, 1.08);
+}
+
+.projects .button:active {
+    transform: translate(0rem, .7rem);
 }
 
 .inside-div:hover {
-    transform: translate(0rem, -.8rem) scale(1.1, 1.1);
-}
-
-.projects .button:hover {
-    transform: translate(0rem, -.5rem);
+    transform: translate(0rem, -.5rem) scale(1.05, 1.05);
+    opacity: 0.8;
 }

@@ -5,6 +5,8 @@
     left: 0;
     padding: .2rem;
     text-align: center;
+    animation-name: slideInRight;
+    animation-duration: 1s;
   }
   footer div.social-media-links {
     overflow: hidden;
@@ -84,4 +86,3 @@
   footer div.social-media-links a:active {
     transform: translate(0rem, .5rem);
   }
-  
